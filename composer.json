@@ -11,6 +11,8 @@
   "homepage": "https://nestify.io/",
   "version": "1.0.0",
   "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "prefer-stable": true,  
   "type": "project",
   "config": {
     "vendor-dir": "wp-content/vendor"
