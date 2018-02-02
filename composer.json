@@ -1,5 +1,5 @@
 {
-  "name": "nestify/wp",
+  "name": "thekonqueror/wp",
   "description": "Project base for a scalable WordPress installation utilizing Composer",
   "authors": [
     {
@@ -10,7 +10,7 @@
   ],
   "homepage": "https://nestify.io/",
   "version": "1.0.0",
-  "license": "GPL-2.0+",
+  "license": "GPL-2.0+-or-later",
   "type": "project",
   "config": {
     "vendor-dir": "wp-content/vendor"
