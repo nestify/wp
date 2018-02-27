@@ -26,7 +26,9 @@ define( 'WP_SITEURL',      getenv( 'WP_HOME' ) . '/' . getenv( 'WP_DIR' ) );
 
 define( 'WP_CONTENT_URL',  getenv( 'WP_HOME' ) . '/wp-content' );
 define( 'WP_CONTENT_DIR',  dirname( __FILE__ ) . '/wp-content' );
-
+define('FS_METHOD','direct');
+define('FS_CHMOD_DIR', (0775 & ~ umask()));
+define('FS_CHMOD_FILE', (0664 & ~ umask()));
 /**
  * MySQL
  */
